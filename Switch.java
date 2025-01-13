@@ -22,4 +22,8 @@ public class Switch {
     public int getNumeroPulsaciones() {
         return pulsaciones;
     }
+    
+    public void imprimirDetalles(){
+        System.out.println("Pulsaciones de teclado: "+pulsaciones+" ,tipo de switch: "+tipoSwitch);
+    }
 }
