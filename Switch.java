@@ -3,7 +3,23 @@ public class Switch {
     private String tipoSwitch;
     
     public Switch(String switchTeclado){
-        pulsaciones = 0;
+        pulsaciones = 7000000;
         tipoSwitch = switchTeclado;        
+    }
+    
+    public void setPulsaciones(int maxPulsaciones){
+        pulsaciones = maxPulsaciones;
+    }
+    
+    public void setTipoSwitch(String nuevoTipoSwitch){
+        tipoSwitch = nuevoTipoSwitch;
+    }
+    
+    public String getSwitch(){
+        return tipoSwitch;
+    }
+    
+    public int getNumeroPulsaciones() {
+        return pulsaciones;
     }
 }
