@@ -24,6 +24,6 @@ public class Switch {
     }
     
     public void imprimirDetalles(){
-        System.out.println("Pulsaciones de teclado: "+pulsaciones+" ,tipo de switch: "+tipoSwitch);
+        System.out.println("Pulsaciones máximas de cada switch: "+ pulsaciones +", tipo de switch: "+ tipoSwitch);
     }
 }
