@@ -34,4 +34,8 @@ public class Teclado
     public void setTipoSwitch(String nuevoSwitch){
         tipoSwitch = new Switch(nuevoSwitch);
     }
+
+    public void imprimirDetalles(){
+        System.out.println("Tamaño del teclado: " + tamanoEnPorcentaje + "%\nIdioma del teclado: " + idioma + "\nSwitch del teclado: " + tipoSwitch.getSwitch());
+    }
 }
