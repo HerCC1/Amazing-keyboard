@@ -23,15 +23,15 @@ public class Teclado
         return tipoSwitch;
     }
     
-    public void setTamano(int nuevo_tamano){
-        tamanoEnPorcentaje = nuevo_tamano;
+    public void setTamano(int nuevoTamano){
+        tamanoEnPorcentaje = nuevoTamano;
     }
     
-    public void setIdioma(String cambio_idioma){
-        idioma = cambio_idioma;
+    public void setIdioma(String cambioIdioma){
+        idioma = cambioIdioma;
     }
     
-    public void setTipoSwitch(String nuevo_Switch){
-        tipoSwitch = new Switch(nuevo_Switch);
+    public void setTipoSwitch(String nuevoSwitch){
+        tipoSwitch = new Switch(nuevoSwitch);
     }
 }
