@@ -36,6 +36,6 @@ public class Teclado
     }
 
     public void imprimirDetalles(){
-        System.out.println("Tamaño del teclado: " + tamanoEnPorcentaje + "%\nIdioma del teclado: " + idioma + "\nSwitch del teclado: " + tipoSwitch.getSwitch());
+        System.out.println("Tamaño del teclado: " + tamanoEnPorcentaje + "%\nIdioma del teclado: " + idioma + "\nSwitch del teclado: " + tipoSwitch.getSwitch() + "\nPulsaciones maximas de cada Switch: " + tipoSwitch.getNumeroPulsaciones());
     }
 }
